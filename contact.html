@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="icons-1.4.0/font/bootstrap-icons.css">
+    
+    <title>Katalog</title>
+</head>
+<body>
+    <h1>TelefonKatalog</h1>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#add" class="btn btn-success badge-pill">Add TelefonKatalog</button>
+    <!-- Modal -->
+  <div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Phone Directory</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             <form Method="post" action="contact.html">
+                 <div class="mb-3">
+                   <label for="exampleInputfirstname" class="form-label">Enter First Name</label>
+                   <input type="text" class="form-control" id=""  placeholder="Enter First Name">
+                 </div>
+                 <div class="mb-3">
+                     <label for="exampleInputlastname" class="form-label">Enter Last Name</label>
+                     <input type="text" class="form-control" id=""  placeholder="Enter Last Name">
+                 </div>
+                 <div class="mb-3">
+                     <label for="exampleInputphone" class="form-label">Enter Phone</label>
+                     <input type="text" class="form-control" id="" placeholder="Enter Phone Number">
+                 </div>
+                 
+             </form>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+     </div>
+</div>
+<hr/>
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Phone Number</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Fakhara</td>
+              <td>Imran</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Amir Imran</td>
+              <td>Ashraf</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Addullah</td>
+              <td>Imran</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Shahid</td>
+              <td>Fayyaz</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Sara</td>
+              <td>Khan</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Urwa</td>
+              <td>Imran</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Ayesha</td>
+              <td>Shahid</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Sidra</td>
+              <td>Maqbool</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Rahana</td>
+              <td>Ameen</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Azhar</td>
+              <td>Fayyaz</td>
+              <td>0767038944</td>
+              <td><i class="bi bi-pencil"></i><i class="bi bi-trash"></i></td>
+            </tr>
+          </tbody> 
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
